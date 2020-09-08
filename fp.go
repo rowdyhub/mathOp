@@ -22,20 +22,15 @@ func exponentiation(a int, b int) int {
 //}
 // Вычисление факториала числа "a"
 func factorial(a int) int {
-	if a > 20 {
-		var err string
-		err = "Предел вычисляемого значения: 20"
-		return err
-	} else {
+	
 		var i int = 1
 		var b int = 1
 		for i <= a {
 			b = b * i
 			i = i + 1
-		}	
+		}
 		return b
 	}
-}
 
 func main() {
 	for true {
